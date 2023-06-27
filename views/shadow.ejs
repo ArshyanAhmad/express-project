@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+
+    <link rel="stylesheet" href="css/shadow.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <%- include('../partials/headers.ejs'); %>
+
+</head>
+
+<body>
+
+    <%- include('../partials/nav.ejs'); %>
+
+        <div class="container">
+            <div id="center">
+
+                <div class="box"></div>
+                <p id="result"> </p>
+                <div class="controls">
+                    <p>
+                        <span>Horizontal Offset:</span>
+                        <input type="range" id="horizontal" min="-50" max="50" step="1">
+                    </p>
+
+                    <p>
+                        <span>Vertical Offset:</span>
+                        <input type="range" id="vertical" min="-50" max="50" step="1">
+                    </p>
+
+                    <p>
+                        <span>Blur:</span>
+                        <input type="range" id="blur" min="0" max="50" step="1">
+                    </p>
+
+                    <p>
+                        <span>Opacity:</span>
+                        <input type="range" id="opacity" min="0" max="1" step="0.1">
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="js/shadow.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* main */
+.color-box {
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+#center {
+    background-color: rgb(8, 2, 15);
+    width: 60%;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.inputs{
+    padding-top: 30px;
+    padding-right: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.inputs p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.inputs p span{
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#red{
+    color: red;
+}
+
+#green{
+    color: rgb(37, 128, 37);
+}
+
+#blue{
+    color: blue;
+}
+
+#alpha{
+    color: grey;
+}
+
+.inputs input{
+    width: 100%;
+}
+
+#result {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    width: 35%;
+    background-color: red;
+    padding: 17px 10px;
+    border-radius: 10px;
+    margin: 20px auto 0 auto;
+}
+

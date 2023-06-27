@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 85%;
+    display: grid;
+    place-items: center;
+}
+
+#center{
+    width: 50%;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.box{
+    width: 500px;
+    height: 300px;
+    border-radius: 2px;
+    background-color: red;
+}
+
+.controls{
+    display: flex;
+    padding-top: 25px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.controls p{
+    display: flex;
+    align-items: center;
+}
+
+.controls p span{
+    width: 220px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.controls p input{
+    width: 100%;
+}
+
+#result{
+    font-size: 20px;
+    background-color: rgb(29, 26, 209);
+    padding: 10px 0;
+    border-radius: 10px;
+    color: white;
+    width: 90%;
+    visibility: hidden;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}

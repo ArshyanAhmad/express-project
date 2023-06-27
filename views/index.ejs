@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <%- include('../partials/headers.ejs'); %>
+</head>
+
+<body>
+
+    <%- include('../partials/nav.ejs'); %>
+
+        <div class="container main">
+
+            <div id="center">
+
+                <div class="color-box"></div>
+                <p id="result">Rgba(255, 0, 0, 0)</p>
+
+                <div class="inputs">
+                    <p>
+                        <span id="red">R</span>
+                        <input type="range" id="colorRange1" min="0" max="255" step="1">
+                    </p>
+
+                    <p>
+                        <span id="green">G</span>
+                        <input type="range" id="colorRange2" min="0" max="255" step="1">
+                    </p>
+
+                    <p>
+                        <span id="blue">B</span>
+                        <input type="range" id="colorRange3" min="0" max="255" step="1">
+                    </p>
+
+                    <p>
+                        <span id="alpha">A</span>
+                        <input type="range" id="colorRange4" min="0" max="9" step="1">
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <script src="js/index.js"></script>
+</body>
+
+</html>
